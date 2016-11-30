@@ -1,6 +1,7 @@
 /**
  * 堆排序
  * 首先建堆,然后依次将根移到末尾,调整堆
+ * 特征:不稳定、内部排序
  * 时间复杂度:O(NLogN)
  * 空间复杂度:O(N)
  * @param arr
@@ -11,12 +12,12 @@
 function HeapSort(arr, type = 'asc') {
     const len = arr.length
     let temp = null
-    BuildHeap(arr, len, type)
+    buildHeap(arr, len, type)
     for(let i = len - 1; i > 0; i--){
         temp = arr[0]
         arr[0] = arr[i]
         arr[i] = temp
-        HeapAdjust(arr, 0, i, type);
+        heapAdjust(arr, 0, i, type);
     }
     return arr
 }
@@ -29,9 +30,9 @@ function HeapSort(arr, type = 'asc') {
  * @param type
  * @constructor
  */
-function BuildHeap(arr, len, type) {
+function buildHeap(arr, len, type) {
     for(let i = Math.floor(len/2) - 1; i >= 0; i--) {
-        HeapAdjust(arr, i, len, type)
+        heapAdjust(arr, i, len, type)
     }
 }
 
@@ -44,7 +45,7 @@ function BuildHeap(arr, len, type) {
  * @param type
  * @constructor
  */
-function HeapAdjust(arr, i, len, type) {
+function heapAdjust(arr, i, len, type) {
     let lchild = i*2+1
     let rchild = i*2+2
     let max = i, min = i
@@ -65,13 +66,13 @@ function HeapAdjust(arr, i, len, type) {
         temp = arr[i]
         arr[i] = arr[max]
         arr[max] =temp
-        HeapAdjust(arr, max, len, type)
+        heapAdjust(arr, max, len, type)
     }
     if (min != i && type === 'desc') {
         temp = arr[i]
         arr[i] = arr[min]
         arr[min] =temp
-        HeapAdjust(arr, min, len, type)
+        heapAdjust(arr, min, len, type)
     }
 }
 
