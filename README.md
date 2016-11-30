@@ -10,3 +10,5 @@ Js 实现各大算法:
  5. [堆排序](./sort/HeapSort.js)
  6. [归并排序](./sort/MergeSort.js)
  7. [计数排序](./sort/CountingSort.js)
+ 8. [基数排序](./sort/RadixSort.js)
+ 9. [桶排序](./sort/BucketSort.js)
