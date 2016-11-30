@@ -4,6 +4,7 @@ const SelectionSort = require('./SelectionSort')
 const QuickSort = require('./QuickSort')
 const HeapSort = require('./HeapSort')
 const MergeSort = require('./MergeSort')
+const CountingSort = require('./CountingSort')
 
 // 插入排序
 console.log(InsertSort([1,4,2,5,7,3,9,6,8]))
@@ -31,3 +32,7 @@ console.log(HeapSort([1,4,2,5,7,3,9,6,8], 'desc'))
 // 归并排序
 console.log(MergeSort([1,4,2,5,7,3,9,6,8]))
 console.log(MergeSort([1,4,2,5,7,3,9,6,8], 'desc'))
+
+// 计数排序
+console.log(CountingSort([1,4,2,5,7,3,9,6,8]))
+console.log(CountingSort([1,4,2,5,7,3,9,6,8], 'desc'))
