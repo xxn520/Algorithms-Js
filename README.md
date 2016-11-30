@@ -7,3 +7,4 @@ Js 实现各大算法:
  2. [插入排序](./sort/InsertSort.js)
  3. [选择排序](./sort/SelectionSort.js)
  4. [快速排序](./sort/QuickSort.js)
+ 5. [堆排序](./sort/HeapSort.js)

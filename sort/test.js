@@ -2,6 +2,7 @@ const InsertSort = require('./InsertSort')
 const BubbleSort = require('./BubbleSort')
 const SelectionSort = require('./SelectionSort')
 const QuickSort = require('./QuickSort')
+const HeapSort = require('./HeapSort')
 
 // 插入排序
 console.log(InsertSort([1,4,2,5,7,3,9,6,8]))
@@ -21,3 +22,7 @@ QuickSort(arr, 0, 8)
 console.log(arr)
 QuickSort(arr, 0, 8, 'desc')
 console.log(arr)
+
+// 堆排序
+console.log(HeapSort([1,4,2,5,7,3,9,6,8]))
+console.log(HeapSort([1,4,2,5,7,3,9,6,8], 'desc'))
