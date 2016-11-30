@@ -12,3 +12,9 @@ Js 实现各大算法:
  7. [计数排序](./sort/CountingSort.js)
  8. [基数排序](./sort/RadixSort.js)
  9. [桶排序](./sort/BucketSort.js)
+2. 查找算法
+ 1. [顺序查找](./search/SequenceSearch.js)
+ 2. [二分查找](./search/BinarySearch.js)
+ 3. [插值查找](./search/InsertionSearch.js)
+ 4. [斐波那契查找(未完成)](./search/FibonacciSearch.js)
+ 5. [二叉查找树](./search/BinarySearchTree.js)
