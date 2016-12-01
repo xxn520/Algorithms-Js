@@ -22,9 +22,16 @@ Js 实现各大算法:
  7. [平衡查找树之红黑树](./serach/RedBlackTree.js)
  8. [分块查找](./search/BlockSearch.js)
  9. [哈希查找](./search/HashSearch.js)
-3. 贪心算法
+3. 最优解算法之暴力搜索算法
+ 1. [dfs模板](./sousuo/dfs.js)
+ 2. [bfs模板](./sousuo/bfs.js)
+4. 最优解算法之贪心算法
  1. [部分背包问题](./search/PackageGreedy.js)
  2. [哈夫曼树](./search/HuffmanGreedy.js)
  3. 最短路算法(放到图论中写)
  4. 最小生成树算法(放到图论中写)
-4. 动态规划算法
+5. 最优解算法之动态规划算法
+ 1. [背包九讲](./dp/PackageDp.js)
+ 2. [Floyd算法](./dp/Floyd.js)
+ 3. [最长公共子串](./dp/LongestCommonSubString.js)
+ 4. 等等,待补充
