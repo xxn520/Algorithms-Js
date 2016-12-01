@@ -23,8 +23,12 @@ Js 实现各大算法:
  8. [分块查找](./search/BlockSearch.js)
  9. [哈希查找](./search/HashSearch.js)
 3. 最优解算法之暴力搜索算法
- 1. [dfs模板](./sousuo/dfs.js)
- 2. [bfs模板](./sousuo/bfs.js)
+ 1. 深度优先搜索
+    1. [n皇后问题](./dfs/NQueens.js)
+    2. [01背包](./dfs/Package01.js)
+    3. [石油储蓄区](.dfs/OilDeposits.js)
+    4. 等等,待补充
+ 2. 广度优先搜索
  3. 优化策略:可行性剪枝、最优性剪枝等
 4. 最优解算法之贪心算法
  1. [部分背包问题](./search/PackageGreedy.js)
