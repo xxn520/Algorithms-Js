@@ -26,7 +26,7 @@ Js 实现各大算法:
  1. 深度优先搜索
     1. [n皇后问题](./dfs/NQueens.js)
     2. [01背包](./dfs/Package01.js)
-    3. [石油储蓄区](.dfs/OilDeposits.js)
+    3. [石油储蓄区](./dfs/OilDeposits.js)
     4. 等等,待补充
  2. 广度优先搜索
     1. [八数码问题](./bfs/EightNumber.js)
@@ -35,8 +35,8 @@ Js 实现各大算法:
     4. A*算法
  3. 优化策略:可行性剪枝、最优性剪枝等
 4. 最优解算法之贪心算法
- 1. [部分背包问题](./search/PackageGreedy.js)
- 2. [哈夫曼树](./search/HuffmanGreedy.js)
+ 1. [部分背包问题](./greedy/PackageGreedy.js)
+ 2. [哈夫曼树](./greedy/HuffmanGreedy.js)
  3. 最短路算法(放到图论中写)
  4. 最小生成树算法(放到图论中写)
 5. 最优解算法之动态规划算法
