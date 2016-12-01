@@ -25,6 +25,7 @@ Js 实现各大算法:
 3. 最优解算法之暴力搜索算法
  1. [dfs模板](./sousuo/dfs.js)
  2. [bfs模板](./sousuo/bfs.js)
+ 3. 优化策略:可行性剪枝、最优性剪枝等
 4. 最优解算法之贪心算法
  1. [部分背包问题](./search/PackageGreedy.js)
  2. [哈夫曼树](./search/HuffmanGreedy.js)
@@ -33,5 +34,19 @@ Js 实现各大算法:
 5. 最优解算法之动态规划算法
  1. [背包九讲](./dp/PackageDp.js)
  2. [Floyd算法](./dp/Floyd.js)
- 3. [最长公共子串](./dp/LongestCommonSubString.js)
+ 3. [最长公共子串](./dp/LCS.js)
  4. 等等,待补充
+6. 字符串模式匹配
+ 1. [kmp算法](./string/kmp.js)
+7. 树算法
+ 1. 线段树
+ 2. 树状数组
+ 3. 字母树
+ 4. 等等
+8. 图论算法
+ 1. 最短路
+ 2. 最小生成树
+ 3. 网络流
+ 4. 二分图
+ 5. 强连通图与强流通分量
+9. 数论算法
