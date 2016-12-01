@@ -29,6 +29,10 @@ Js 实现各大算法:
     3. [石油储蓄区](.dfs/OilDeposits.js)
     4. 等等,待补充
  2. 广度优先搜索
+    1. [八数码问题](./bfs/EightNumber.js)
+    2. [走迷宫最短路](./bfs/Maze.js)
+    3. 双向广搜
+    4. A*算法
  3. 优化策略:可行性剪枝、最优性剪枝等
 4. 最优解算法之贪心算法
  1. [部分背包问题](./search/PackageGreedy.js)
