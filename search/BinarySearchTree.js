@@ -1,3 +1,10 @@
+/**
+ * 二叉搜索树
+ * @param arr
+ * @param value
+ * @returns {*}
+ * @constructor
+ */
 function BinarySearchTree(arr, value) {
     const len = arr.length
     let root = new Node(arr[0], 0, null, null)
@@ -18,6 +25,14 @@ function BinarySearchTree(arr, value) {
     return cur.key
 }
 
+/**
+ * 树节点
+ * @param value
+ * @param key
+ * @param left
+ * @param right
+ * @constructor
+ */
 function Node(value, key, left, right) {
     this.value = value
     this.key = key
@@ -25,6 +40,13 @@ function Node(value, key, left, right) {
     this.right = right
 }
 
+/**
+ * 插入节点
+ * 小的插入左子树,大的插入右子树
+ * @param node
+ * @param value
+ * @param key
+ */
 function insertToBst(node, value, key) {
     if (value < node.value) {
         if (node.left) {

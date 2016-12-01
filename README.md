@@ -18,3 +18,5 @@ Js 实现各大算法:
  3. [插值查找](./search/InsertionSearch.js)
  4. [斐波那契查找(未完成)](./search/FibonacciSearch.js)
  5. [二叉查找树](./search/BinarySearchTree.js)
+ 6. [平衡查找树之2-3树(未完成)](./search/TwoThreeTree.js)
+ 7. [平衡查找树之红黑树](./serach/RedBlackTree.js)
