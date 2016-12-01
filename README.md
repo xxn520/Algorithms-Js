@@ -62,9 +62,9 @@ Js 实现各大算法:
     3. [BellmanFord 算法](./graph/BellmanFord.js)
     4. [Spfa 算法](./graph/Spfa.js)
  3. 最小生成树
-    1. prim 算法
-    2. kruskal 算法
- 4. 拓扑排序
+    1. [Prim 算法](./graph/Prim.js)
+    2. [Kruskal 算法](./graph/Kruskal.js)
+ 4. [拓扑排序](./graph/TopologicalSort.js)
  5. 网络流
  6. 二分图
  7. 强连通图与强流通分量
